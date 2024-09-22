@@ -1,0 +1,22 @@
+nav{
+    display:flex;
+}
+main{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+img{
+    width:150px;
+    height:auto;
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+nav a{
+    padding:20px;
+}
+nav a:hover {
+	text-decoration:overline;
+}
