@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/temples.css">
     <link rel="stylesheet" href="styles/temples-large.css">
-    <link rel="stylesheet" href="scripts/temples.js">
+    <script defer src="scripts/temples.js"></script>
 </head>
+
 <body>
     <header>
         <h1>Temples</h1>
-        <nav>
+        <button type="button" id="hamburger"></button>
+        <nav class="navi">
             <a href="">Home</a>
             <a href="">Old</a>
             <a href="">New</a>
@@ -20,43 +23,55 @@
         </nav>
     </header>
     <main>
-        <h1>Temples</h1>
-        <figure>
-            <img src="" alt="">
-        </figure>
-        <figure>
-            <img src="" alt="">
-        </figure>
-        <figure>
-            <img src="" alt="">
-        </figure>
-        <figure>
-            <img src="" alt="">
-        </figure>
-        <figure>
-            <img src="" alt="">
-        </figure>
-        <figure>
-            <img src="" alt="">
-        </figure>
-        <figure>
-            <img src="" alt="">
-        </figure>
-        <figure>
-            <img src="" alt="">
-        </figure>
-        <figure>
-            <img src="" alt="">
-        </figure>
+        <h2>Temples</h2>
+        <div id="temples">
+            <figure>
+                <img src="images/temple.jpg" alt="temple">
+                <figcaption>Salt Lake Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="temple">
+                <figcaption>Salt Lake Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="temple">
+                <figcaption>Salt Lake Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="temple">
+                <figcaption>Salt Lake Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="temple">
+                <figcaption>Salt Lake Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="temple">
+                <figcaption>Salt Lake Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="temple">
+                <figcaption>Salt Lake Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="temple">
+                <figcaption>Salt Lake Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="temple">
+                <figcaption>Salt Lake Temple</figcaption>
+            </figure>
+        </div>
     </main>
     <footer>
         <p>
             <span id="currentyear"></span>
             Nate Hansen
-            Utah  
+            Utah
         </p>
-        <p id="lastModified">    
+        <p id="lastModified">
         </p>
-    </footer> 
+    </footer>
 </body>
+
 </html>
