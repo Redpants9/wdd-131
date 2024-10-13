@@ -78,4 +78,26 @@ const temples = [
 	  "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
 	},
 	// Add more temple objects here...
+	{
+		templeName: "Aba Nigeria",
+		location: "Aba, Nigeria",
+		dedicated: "2005, August, 7",
+		area: 11500,
+		imageUrl:
+		"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
+	  },{
+		templeName: "Aba Nigeria",
+		location: "Aba, Nigeria",
+		dedicated: "2005, August, 7",
+		area: 11500,
+		imageUrl:
+		"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
+	  },{
+		templeName: "Aba Nigeria",
+		location: "Aba, Nigeria",
+		dedicated: "2005, August, 7",
+		area: 11500,
+		imageUrl:
+		"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
+	  },
   ];
