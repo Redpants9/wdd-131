@@ -10,3 +10,6 @@ modify.innerHTML = `Last Modified: <span class="highlight">${new Intl.DateTimeFo
 const year = document.querySelector("#currentyear");
 const current = new Date()
 year.innerHTML = `&copy ${current.getFullYear()}`
+
+const temperature = 50 
+const windSpeed = 3
