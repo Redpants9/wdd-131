@@ -13,3 +13,8 @@ year.innerHTML = `&copy ${current.getFullYear()}`
 
 const temperature = 50 
 const windSpeed = 3
+
+function calculateWindChill()
+{
+
+}
