@@ -15,3 +15,8 @@ footer {
     flex-direction: column;
     background-color:antiquewhite;
 }
+.family{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
