@@ -1,5 +1,5 @@
 @media(min-width:50em) {
-    #temples {
+    .temples {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
